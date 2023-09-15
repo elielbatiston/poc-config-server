@@ -13,5 +13,5 @@ management:
 
 application:
   refreshscope:
-    ttl: 6
-    retry: 7
+    ttl: 7
+    retry: 8
