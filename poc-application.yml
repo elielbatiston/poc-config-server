@@ -4,5 +4,5 @@ server:
     context-path: '/poc-application'
 
 application:
-  ttl: 5000
-  retry: 5
+  ttl: 3000
+  retry: 4
