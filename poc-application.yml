@@ -10,7 +10,8 @@ management:
         include:
           - refresh
           - health
-          
+
 application:
-  ttl: 3000
-  retry: 4
+  refreshscope:
+    ttl: 5000
+    retry: 5
